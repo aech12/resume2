@@ -1,0 +1,17 @@
+.Card {
+    /* display: block; */
+    background-image: linear-gradient(to bottom right, grey, lightgrey);
+    border-radius: 10%;
+    color: black;
+    box-shadow: 2px 3px #363636;
+}
+
+.Card:hover > .overlay {
+    opacity:0.7;
+    border-radius:30px;
+    cursor: pointer;
+}
+
+img {
+    box-shadow: 2px 0px #363636;
+}

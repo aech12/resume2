@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Adamina|Montserrat+Alternates|Press+Start+2P|Rock+Salt');
+
+.Me {
+    /* background-image: url('../../media/bg4.jpeg');
+    background-size: cover; */
+    color: black;
+    font-size: 1.2em;
+    /* height: 100vh; */
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Press Start 2P', cursive;
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 1.2em;
+}
+
+h3 {
+    text-align: center;
+    padding: 10px;
+    text-wrap: wrap;
+}
+
+@media screen and (max-width : 400px)
+{
+  ul {
+      padding: 0;
+  }
+  h3 {
+      padding: 0;
+  }
+}
+@media (min-width : 887px)
+{
+    .Me {
+        height: 100vh;
+    }
+}

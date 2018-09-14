@@ -1,10 +1,6 @@
 #BioId {
     margin: 10px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 3fr 1fr;
-    align-items: center;
-    grid-gap: 20px;
+    color: black;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Adamina|Montserrat+Alternates|Press+Start+2P|Rock+Salt');
@@ -15,10 +11,6 @@ p {
 @media screen and (max-width: 496px) {
     #BioId {
         height: 90%;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        align-items: center;
-        grid-gap: 20px;
+        margin: 0px;
     }
 }

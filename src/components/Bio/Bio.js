@@ -5,15 +5,14 @@ const Bio = () => {
     return (
         <div 
         id='bio'
-        className='Bio bg-light-blue'
+        className='Bio'
         style={{}}
         >
         <span id='BioId'>
         <p>I'm 24 years old, on my first CS year.</p>
-        <p>Simple code is a must.</p>
-        <p>I always try to make my websites fast and minimalistic.</p>
-        <p>Learning is a daily habit to me!</p>
-        <p>Looking forward to learn the technologies of the future.</p>
+        <p>I've been learning web development for the past months and I love it!</p>
+        <p>My goal is to become so good to be hirable, and then keep on learning.</p>
+        <p>I have tested React, mongoDB, postgres with plans of learnign Vue and React Native.</p>
         </span>
         </div>
     )

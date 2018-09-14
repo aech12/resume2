@@ -14,6 +14,7 @@ const Projects = () => {
         style={{}}>
         
             <h2>PROJECTS</h2>
+            <p>(click on image to launch)</p>
 
             <Card name='Play Tictactoe' img={img[0]}
                 url='https://aech12.github.io/tictactoe/'
